@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Faz o site se adaptar ao celular -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flavia | Portfolio</title>
+  <link rel="canonical" href="https://seu-usuario.github.io/nome-do-repositorio/">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--========== BARRA SUPERIOR ==========-->
+  <header>
+    <button class="start-button">start</button>
+    <nav class="menu">
+      <a href="#sobre" class="tab active">about me</a>
+      <a href="#formacao" class="tab">formação</a>
+      <a href="#portfolio" class="tab">portfólio</a>
+      <a href="#contato" class="tab">contato</a>
+      <button class="plus-button">+</button>
+    </nav>
+
+    <div class="date-time">
+      <span id="date">03/10/2026</span>
+      <span id="clock">02:15</span>
+    </div>
+  </header>
+
+  <!--========== CONTEÚDO PRINCIPAL ==========-->
+  <main>
+    <!--========== SOBRE MIM ==========-->
+<section id="sobre" class="section about-section">
+
+  <!-- CONTEÚDO DE TEXTO -->
+  <div class="about-content">
+
+    <h1>
+      about<br>
+      <span>me!</span>
+    </h1>
+
+    <h2>Flavia</h2>
+
+    <p class="intro">
+      Olá! Meu nome é Flavia e este é o meu
+      portfólio pessoal.
+    </p>
+
+    <p>
+      Aqui você pode conhecer um pouco sobre mim,
+      minha formação, meus conhecimentos e alguns
+      dos projetos que já desenvolvi.
+    </p>
+
+
+    <!-- SKILLS -->
+    <div class="block">
+
+      <h3>SKILLS</h3>
+
+      <div class="skills">
+
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JS</div>
+
+      </div>
+
+    </div>
+
+    <!-- INTERESSES -->
+    <div class="block">
+      <h3>INTERESSES</h3>
+      <p>
+        Desenvolvimento web, tecnologia,
+        design e criação de projetos digitais.
+      </p>
+    </div>
+  </div>
+  
+  <div class="profile-area">
+
+    <!-- JANELA SOCIAL -->
+    <div class="social-window">
+      <div class="window-title">
+        <span>SOCIALS</span>
+        <button type="button">×</button>
+      </div>
+      
+      <div class="social-content">
+        <p>◎ github.com/Flavin-ha</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!--========== FORMAÇÃO ==========-->
+    <section id="formacao" class="section">
+      <div class="section-header">
+        <span>education</span>
+        <h2>formação</h2>
+      </div>
+
+      <div class="education-window">
+        <div class="window-title">
+          <span>formação</span>
+          <button>×</button>
+        </div>
+
+        <div class="education-content">
+          <article>
+            <span class="year">2026</span>
+            <h3>Design de Jogos</h3>
+            <p>UNINTER</p>
+            <p>Desenvolvimento de experiências jogáveis, mecânicas de gameplay, lógica em C# e prototipagem para projetos interativos..</p>
+          </article>
+
+          <article>
+            <span class="year">2026</span>
+            <h3>Pixel Art</h3>
+            <p>Youtube</p>
+            <p>Foco na criação de assets visuais, animação 2D pixelada e desenvolvimento da identidade visual para jogos retro e indies.</p>
+          </article>
+
+          <article>
+            <span class="year">IDIOMAS</span>
+            <h3>Inglês</h3>
+            <p>Intermediário</p>
+            <h3>MANDARIM</h3>
+            <p>Iniciante</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--========== PORTFÓLIO ==========-->
+    <section id="portfolio" class="section">
+      <div class="section-header">
+        <span>works</span>
+        <h2>portfólio</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-number">01</div>
+
+          <div>
+            <H3>Projeto Web</H3>
+            <p>Projeto pessoal de um site de onde as pessoas podem armazenar fotos e personalizar seus perfis(Ainda em desenvolvimento).</p>
+            <a href="https://flavin-ha.github.io/Projeto-Pessoal/" target="_blank">visualizar projeto →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">02</div>
+          <div>
+            <h3>Projeto Unity</h3>
+            <p>Meu primeiro jogo feito na Unity chamado Paper Box </p>
+            <a href="https://tw021dev.itch.io/paper-box" target="_blank">visualizar projeto →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">03</div>
+          <div>
+            <h3>Outro projeto</h3>
+            <p>Recriação de um minihompy no estilo, feita com HTML, CSS e JavaScript. O site tem um caderno rosa com espiral, perfil, abas de navegação e player de música(Ainda em desenvolvimento).</p>
+            <a href="https://flavin-ha.github.io/MinyHompy/" target="_blank">visualizar projeto →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--========== CONTATO ==========-->
+    <section id="contato" class="section">
+      <div class="section-header">
+        <span>contact</span>
+        <h2>contato</h2>
+      </div>
+
+      <div class="contact-window">
+        <div class="window-title">
+          <span>Contate-me</span>
+          <button>×</button>
+        </div>
+
+        <form id="contactForm">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+          >
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+          >
+
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="6"
+          ></textarea>
+
+          <button
+            type="submit"
+            class="submit-button"
+          >
+           ENVIAR
+          </button>
+        </form>
+        <p id="formMessage"></p>
+      </div>
+    </section> 
+  </main>
+
+  <footer>
+    <p>© 2026 Flavia — Personal Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+  </main>
+</body>
